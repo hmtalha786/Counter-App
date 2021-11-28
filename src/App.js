@@ -1,12 +1,12 @@
 import React from "react";
 import Counter from "./components/Counter";
-import CounterDisplay from "./components/CounterDisplay";
 
 function App() {
   return (
     <div>
+      React Counter using Redux Tootkit
+      <br />
       <Counter />
-      <CounterDisplay />
     </div>
   );
 }
